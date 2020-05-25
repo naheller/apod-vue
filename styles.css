@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+.wrapper {
+  height: 100vh;
+  padding: 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text {
+  color: white;
+  font-family: sans-serif;
+  text-shadow: 0.25rem 0.25rem 0.5rem black;
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="app" class="wrapper" v-bind:style="{backgroundImage: `url(${url})`}">
+      <div class="text">
+        <h1>{{ title }}</h1>
+        <p>{{ description }}</p>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
